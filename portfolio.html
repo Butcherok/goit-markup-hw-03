@@ -14,24 +14,28 @@
 <body>
     <!-- header -->
     <header class="site-header">
-        <!-- header navigation -->
-        <nav class="site-nav">
-            <a href="./index.html" class="logo">Web<span class="logo-part">Studio</span></a>
-            <ul>
-                <li class="nav-item"><a href="./index.html" class="nav-link">Студія</a></li>
-                <li class="nav-item"><a href="./portfolio.html" class="nav-link current">Портфоліо</a></li>
-                <li class="nav-item"><a href="./index.html" class="nav-link">Контакти</a></li>
+        <div class="container navigation">
+            <!-- header navigation -->
+            <nav class="site-nav">
+                <a href="./index.html" class="logo">Web<span class="logo-part">Studio</span></a>
+                <ul class="main-nav">
+                    <li class="nav-item"><a href="./index.html" class="nav-link ">Студія</a></li>
+                    <li class="nav-item"><a href="./portfolio.html" class="nav-link current">Портфоліо</a></li>
+                    <li class="nav-item"><a href="./index.html" class="nav-link">Контакти</a></li>
+                </ul>
+            </nav>
+            <!-- contacts -->
+            <ul class="contact">
+                <li class="contact-item"><a href="mailto:info@devstudio.com" class="contact-mail">info@devstudio.com</a>
+                </li>
+                <li class="contact-item"><a href="tel:++380961111111" class="contact-tel">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <!-- contacts -->
-        <ul class="contact">
-            <li class="contact-item"><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
-            <li class="contact-item"><a href="tel:++380961111111" class="contact-link">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
+    </header>
     </header>
     <!-- main section -->
     <main>
-        <section class="gallery">
+        <section class="gallery container">
             <h1 class="visually-hidden">Buttons</h1>
             <ul class="btn-list">
                 <li class="btn-item"><button class="btn-text">Усі</button></li>
@@ -91,16 +95,18 @@
     </main>
     <!-- footer -->
     <footer class="basement">
-        <a href="./index.html" class="logo-bsmt">Web<span class="logo-bsmt-part">Studio</span></a>
-        <address>
-            <ul>
-                <li class="bsmt-list">
-                    <p class="adds">м. Київ, пр-т Лесі Українки, 26</p>
-                </li>
-                <li class="bsmt-list"><a href="mailto:info@devstudio.com" class="bsmt-item">info@devstudio.com</a></li>
-                <li class="bsmt-list"><a href="tel:++380961111111" class="bsmt-item">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
+        <div class="container">
+            <a href="./index.html" class="logo-bsmt">Web<span class="logo-bsmt-part">Studio</span></a>
+            <address>
+                <ul>
+                    <li class="bsmt-list">
+                        <p class="adds">м. Київ, пр-т Лесі Українки, 26</p>
+                    </li>
+                    <li class="bsmt-list"><a href="mailto:info@devstudio.com" class="bsmt-item">info@devstudio.com</a></li>
+                    <li class="bsmt-list"><a href="tel:++380961111111" class="bsmt-item">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 </html>
