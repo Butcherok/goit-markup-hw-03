@@ -59,6 +59,9 @@ img {
 
 /* ----------------Header---------------- */
 
+.site-header {
+    border-bottom: 1px solid var(--header-color-border);
+}
 .logo {
     display: block;
     margin-right: 93px;
@@ -75,11 +78,9 @@ img {
 .logo-part {
     color: var(--logo-color-secondary);
 }
-
-.navigation {
+.site-header .container {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid var(--header-color-border);
 }
 
 .nav-item:not(:first-child),
@@ -151,7 +152,6 @@ img {
 .hero {
     padding: 200px 0 200px 0;
     text-align: center;
-    margin: auto auto 94px auto;
 
     background-color: var(--footer-bg-color);
 }
@@ -192,7 +192,7 @@ img {
 /*----------------section about------------------*/
 
 .about-us {
-    margin-bottom: 94px;
+    padding: 94px 0;
 }
 
 .about {
@@ -230,7 +230,7 @@ img {
 /*--------------section about work------------*/
 
 .work {
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 
 .work-list {
@@ -274,19 +274,15 @@ img {
 .team-card {
     width: calc((100% - 90px) / 4);
     margin-right: 30px;
-    padding-bottom: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 0px 0px 4px 4px;
     
     list-style-type: none;
     background-color: var(--footer-color-text-secondary);
 }
 
-.team-card:hover,
-.team-card:focus,
-.work-item:hover,
-.work-item:focus {
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    
+.manager {
+    padding: 30px 0;
 }
 
 .team-card:nth-last-child(-n + 1) {
@@ -294,7 +290,7 @@ img {
 }
 
 .card-title {
-    margin: 30px auto 10px auto;
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -379,7 +375,7 @@ img {
 
 .btn-text:hover,
 .btn-text:focus {
-    padding: 6px 25px;
+    /* padding: 6px 25px; */
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     color: var(--footer-color-text-secondary);
     background-color: var(--text-color-accent);

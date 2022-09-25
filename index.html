@@ -15,7 +15,7 @@
 <body>
     <!-- header -->
     <header class="site-header">
-        <div class="container navigation">
+        <div class="container">
             <!-- header navigation -->
             <nav class="site-nav">
                 <a href="./index.html" class="logo">Web<span class="logo-part">Studio</span></a>
@@ -41,41 +41,45 @@
             </div>
         </section>
         <!-- section about -->
-        <section class="about-us container">
+        <section class="about-us">
             <h2 class="visually-hidden">About</h2>
-            <ul class="about">
-                <li class="about-item">
-                    <h3 class="about-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p class="about-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-                </li>
-                <li class="about-item">
-                    <h3 class="about-title">ПУНКТУАЛЬНІСТЬ</h3>
-                    <p class="about-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-                </li>
-                <li class="about-item">
-                    <h3 class="about-title">ПЛАНУВАННЯ</h3>
-                    <p class="about-text">Так само консультація з широким активом значною мірою зумовлює.</p>
-                </li>
-                <li class="about-item">
-                    <h3 class="about-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p class="about-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-                </li>
-            </ul>
+            <div class="container">
+                <ul class="about">
+                    <li class="about-item">
+                        <h3 class="about-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                        <p class="about-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    </li>
+                    <li class="about-item">
+                        <h3 class="about-title">ПУНКТУАЛЬНІСТЬ</h3>
+                        <p class="about-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    </li>
+                    <li class="about-item">
+                        <h3 class="about-title">ПЛАНУВАННЯ</h3>
+                        <p class="about-text">Так само консультація з широким активом значною мірою зумовлює.</p>
+                    </li>
+                    <li class="about-item">
+                        <h3 class="about-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                        <p class="about-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <!-- section what we do -->
-        <section class="work container">
-            <h2 class="work-title">Чим ми займаємося</h2>
-            <ul class="work-list">
-                <li class="work-item">
-                    <img src="./images/about-1.jpg" alt="людина працює на персональному компьютері" width="370">
-                </li>
-                <li class="work-item">
-                    <img src="./images/about-2.jpg" alt="людина працює на лептопі" width="370"> 
-                </li>
-                <li class="work-item">
-                    <img src="./images/about-3.jpg" alt="результат роботи на планшеті" width="370">
-                </li>
-            </ul>
+        <section class="work">
+            <div class="container">
+                <h2 class="work-title">Чим ми займаємося</h2>
+                <ul class="work-list">
+                    <li class="work-item">
+                        <img src="./images/about-1.jpg" alt="людина працює на персональному компьютері" width="370">
+                    </li>
+                    <li class="work-item">
+                        <img src="./images/about-2.jpg" alt="людина працює на лептопі" width="370">
+                    </li>
+                    <li class="work-item">
+                        <img src="./images/about-3.jpg" alt="результат роботи на планшеті" width="370">
+                    </li>
+                </ul>
+            </div>
         </section>
         <!-- about team -->
         <section class="team">
@@ -84,23 +88,31 @@
                 <ul class="team-list">
                     <li class="team-card">
                         <img src="./images/manager-1.jpg" alt="співробітник Ігор" width="270">
-                        <h3 class="card-title">Ігор Дем'яненко</h3>
-                        <p class="card-text" lang="en">Product Designer</p>
+                        <div class="manager">
+                            <h3 class="card-title">Ігор Дем'яненко</h3>
+                            <p class="card-text" lang="en">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team-card">
                         <img src="./images/manager-2.jpg" alt="співробітник Ольга" width="270">
-                        <h3 class="card-title">Ольга Рєпіна</h3>
-                        <p class="card-text" lang="en">Frontend Developer</p>
+                        <div class="manager">
+                            <h3 class="card-title">Ольга Рєпіна</h3>
+                            <p class="card-text" lang="en">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team-card">
                         <img src="./images/manager-3.jpg" alt="співробітник Микола" width="270">
-                        <h3 class="card-title">Микола Тарасов</h3>
-                        <p class="card-text" lang="en">Marketing</p>
+                        <div class="manager">
+                            <h3 class="card-title">Микола Тарасов</h3>
+                            <p class="card-text" lang="en">Marketing</p>
+                        </div>
                     </li>
                     <li class="team-card">
                         <img src="./images/manager-4.jpg" alt="співробітник Михайло" width="270">
-                        <h3 class="card-title">Михайло Єрмаков</h3>
-                        <p class="card-text" lang="en">UI Designer</p>
+                        <div class="manager">
+                            <h3 class="card-title">Михайло Єрмаков</h3>
+                            <p class="card-text" lang="en">UI Designer</p>r
+                        </div>
                     </li>
                 </ul>
             </div>
